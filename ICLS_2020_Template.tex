@@ -1,0 +1,54 @@
+%-----------------------------------------------%
+% Packages arranged by : Tsz Timmy Chan	        %
+%                 Date : Apr 17th, 2020	        %
+%	See ICLSpreamble.sty for details	        %
+%	Uses biblatex-apa package for references    %
+%-----------------------------------------------%
+% File hosted on Overleaf and synced with Github
+
+\documentclass{ICLSarticle} % Custom formatting file, based on standard article class
+\usepackage{ICLSpreamble}   % Cusom commands defined here, as well as useful packages.
+
+\ICLStitle{LaTeX, Overleaf, and RMarkdown Templates for ISLS Conferences: Increasing Collaboration, Reproducibility and Accessibility}
+% Work Title Here.
+
+% YOUR NAME(S) HERE 
+\author{Author Name, Institution, Email \and Author Name 2, Institution, Email \and Author Name 3, Institution, Email%
+
+\vspace{-9.5ex}} %removes spacing after authors
+
+
+
+\addbibresource{ISLS2021.bib}		% Reference file, NO SPACES in the name
+
+
+% CUSTOM PACKAGES GO HERE %
+%\usepackage{LSRIcommon}
+% CUSTOM PACKAGES GO HERE %
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\begin{document}
+
+%====ABSTRACT AND KEYWORDS====%
+\maketitle
+% \begin{ICLSabstract}
+% 	\input{abstract} % This template includes standalone package so this works nicely
+% \end{ICLSabstract}
+%	\ICLSkeywords{maximum five keywords should be included}
+
+
+
+
+%====MAIN TEXT BELOW====%
+\input{paper_contents} % inputs paper_content.tex
+
+
+\printbibliography[title={References}]
+
+\section{Acknowledgments}
+
+Removed for review.
+
+\end{document}

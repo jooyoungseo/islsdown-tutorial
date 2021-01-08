@@ -1,0 +1,187 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Toward a More Accessible and Reproducible ISLS Conference Proceedings Paper: A Practical Workshop Using Cutting-Edge Tools}
+\author{     }
+\date{     }
+
+\addbibresource{ISLS_2021.bib}
+\begin{document}
+
+\section{Organizers and Audience}
+Joseph E Michaelis is an Assistant Professor of Computer Science and Learning Sciences at the University of Illinois at Chicago. His work focuses on developing educational technologies to improve interest in STEM. He as been an avid LaTeX and Overleaf user, and has used these tools to submit numerous conference papers including ACM CHI, Interaction Design for Children, and ISLS 2021. Dr. Michaelis is co-author of the ISLS LaTeX template.
+
+Proposers/Organizers’ names, affiliations, contact information, and backgrounds, including prior experience in conducting such events
+
+\subsection{Intended Audience}
+We believe this tutorial would be helpful for all ISLS participants who plan to submit papers to future ISLS. The use of the LaTeX and Overleaf templates would be especially helpful for those who want to improve the quality of the formatting for their ISLS submission, feel the existing Word template is difficult to work with, or would like a better tool for collaborative writing. The use of the RMarkdown would benefit those who wish to integrate their data analysis into their writing to improve the reproducibility and transparency of their work, and those who would like to make that work available in more accessibility friendly formats.
+
+\subsection{Duration of Event}
+This tutorial will be scheduled as a half-day event with two main components and a short break. Our format will be capable of running the tutorial online, and the remote participation will help to highlight the utility of these tools for collaborating.
+
+\section{Theme and goals}
+The goal is for workshop participants to leave with a paper in either Overleaf, LaTeX, or Rmarkdown
+As a theme, throughout the tutorial we will weave in what we believe are the four main advantages of using computational word processing approaches: crisp formatting, collaboration, reproducibility, and accessibility.
+
+\section{Theoretical background and relevance to field and conference}
+
+A number of theoretical ideas are relevant to the focus of this workshop;
+the first is reproducibility. Scholars have argued that reproducibility should
+be a *minimal* standard as a means of combating the *replicability crisis* [@peng11, @hedges18]. 
+Reproducibility typically involves using tools and software, such as the R 
+statistical software and programming language [@rcoreteam2020]; through the use of 
+R, each of the steps in an analysis, from reading and processing raw data to creating
+models and visualizations of data, can be written in such a way that an analysis
+may be reproduced---by the analyst or others. Through the use of tools such as R, 
+analyses, especially but not only those that are quantitative in nature, are more
+open and transparent, and the likelihood of reproducibility and trustworthiness
+of research can be increased. Especially in education, reproducibility is 
+important [@vanderzee2018], but has been emphasized less than in conversations about 
+research practice than in closely-related fields, including computer science and psychology.
+
+The second relevant theoretical idea is accessibility. Accessibility refers to 
+the state of digital technologies, including web-based materials, not having barriers
+to their use. Accessibility is particularly relevant to sharing scholarly work [@seo2019];
+a number of tools have made writing not only text but also code including the typesetting 
+language LaTeX and R Markdown,  the latter of which can allow for written text and analytic 
+R code to be woven together in a way that can make code more easy to understand [@knuth1984].
+
+These ideas of reproducibility and accessibility are both afforded by the use of LaTeX and
+R Markdown. We note that these are not the only relevant ideas and benefits to their use:
+Using tools that can be more reproducible and also more accessible happens to involve a workflow
+that can also lead to easier to write (and collaborate around) proposals for conferences such as ISLS. These tools also enhance the author's capacity for conforming to formatting requirements with ease, as the template takes plain text entry and automatically formats that text to the specifications of the conference, thus reducing the need for addition time spent on typesetting or placement, editing and alignment of figures, tables and references. 
+
+\section{Outline of planned activities}
+In our tutorial, we plan to engage participants in hands-on activities that enable them to learn to use the Overleaf and R Markdown tools with their own examples. By the end of the tutorial, participants will have converted a previously written ISLS, or other conference paper into the Overleaf and/or R Markdown author tools. Prior to the tutorial event, we will contact participants via email with instructions on how to prepare for the day, including installing required software and packages, creating Overleaf accounts, and selecting an example paper and/or data to work with. The email include a tutorial prep checklist for participants, and contact information if they need help with this process.
+
+During the tutorial, we will introduce the fundamental concepts of LaTeX, Overleaf and R Markdown and answer questions about the benefits of writing with these tools. We will then conduct a demonstration and practice session for OverLeaf, take a short break, and continue will a demonstration and practice session for R Markdown. The demonstrations will include one of our expert organizers walking through the syntax and workflow for typical components of a conference paper such as headings, tables, and references using a User Guide created specifically for the ISLS Overleaf or R Markdown tool. We will then invite participants to practice using each tool by recreating one of their own previously written papers using the tool. During practice, all three organizers will check-in and provide guidance for participants. We will conclude the tutorial with a feedback session for the participants to guide the organizers in improving the tools for future use. Below we outline the three parts of the tutorial event.
+\subsection{Part 1: Introducing the tools} 
+We will begin the tutorial with a brief introduction of the organizers and participants, followed by a brief look at LaTeX, Overleaf, and R Markdown to frame the days work. The introduction take about 20 minutes, and will proceed as follows:
+\begin{itemize}
+  \item Introductions for organizers and participants
+  \item Overview of computational word processing
+  \item First look at LaTeX, Overleaf, and R Markdown
+  \item Initial Questions
+\end{itemize}
+
+\subsection{Part 2: Overleaf}
+After the introduction, we will briefly demonstrate the process of adding text and common paper elements to Overleaf with a focus on the quality of automatic formatting, professional look, and capacity for collaboration. The demonstration will use a copy and paste method of converting a previous paper, so that the demonstration matches the process participants will engage in. Participants will then utilize our user guide to create their own Overleaf formatted paper with aid from organizers. We will dedicate 10 minutes to the demonstration and 30 minutes to the practice. This portion of the event proceed as follows: 
+\begin{itemize}
+    \item Demonstration of LaTeX in Overleaf (20 minutes)
+    \begin{itemize}
+        \item Basic Text Entry
+        \item Adding Figures, Tables, and References
+        \item Compiling and Troubleshooting
+    \end{itemize}
+    \item Practice using Overleaf (60 minutes)
+    \begin{itemize}
+        \item Access Overleaf template
+        \item Add basic text from existing paper
+        \item Add Figure, Table and References from existing paper
+        \item Compile and download PDF
+        \item Continue to add additional portions of paper
+    \end{itemize}
+    \item Whole group discussion and questions about Overleaf (10 minutes)
+\end{itemize}
+
+% saved these for the details when putting the actual tutorial together - 15 mins ()
+% ---> hand out ISLS Overleaf user guide
+% 	- Basic Text - dangers of cut and paste
+% 		- Formatting (italics, bold), quotations (we have a fix, but know the issue), 
+% 	- Compiling
+% 	- Authors
+% 	- Tables
+% 	- Figures
+% 		- Creating
+% 		- placing
+% 	- Bibliography
+% 		- Using a citation management tool
+
+% Participants get access to Overleaf template ISLS 
+
+% Participants add paper components into Overleaf with instructor help
+% 	- Add a paragraph from existing paper to the Overleaf Template
+% 	- Add authors
+% 	- Add a table
+% 	- Add a figure
+% 	- Add a citation
+% 	- Whole or at least more of their paper?
+% 	- Export to PDF
+% 	- Save as Word
+
+\subsection{Break}
+Here we will give participants a 20 minute break from the event, and reconvene for Part 3.
+
+\subsection{Part 3: R Markdown} 
+After the break, we will demonstrate the process of using R Markdown to write an ISLS. We will include some similar aspects to Overleaf, including adding text and common paper elements, with a focus on how this process enhances reproducibility and accessibility. We will include special attention to how data and analysis are embedded in the process, and how to format for accessibility by a variety of reader and/or author needs. We will provide sample data and analysis code for participants who need it. Participants will then utilize our user guide to create their own R Markdown formatted paper with aid from organizers. Again, we will dedicate 10 minutes to the demonstration and 30 minutes to the practice. With 10 minutes added for a whole group discussion. This portion of the event proceed as follows: 
+\begin{itemize}
+    \item Demonstration of R Markdown (20 minutes)
+    \begin{itemize}
+        \item Basic text entry
+        \item Including data and data analysis code
+        \item Adding figures, tables, and references
+        \item Output formats, compiling and troubleshooting
+        \item Accessibility
+    \end{itemize}
+    \item Practice using R Markdown (60 minutes)
+    \begin{itemize}
+        \item Access R Markdown template 
+        \item Add basic text from existing paper
+        \item Import Data, add code to analyze data and output figure or table
+        \item Output multiple formats
+        \item Continue to add additional portions of paper
+    \end{itemize}
+    \item Whole group discussion and questions about R Markdown (10 minutes)
+\end{itemize}
+% Review Rmarkdown
+
+% Demonstrate Rmarkdown Template (Need help with these details) (focus on reproducibility and accessibility)
+% -----> handout Rmarkdown ISLS user guide
+% 	- Basic Text
+% 		- Formatting (italics, bold), quotations (?), 
+% 	- Compiling
+% 	- Authors
+% 	- Data and code
+% 	- Tables <- generated from code
+% 	- Figures <- generated from code
+% 		- Creating
+% 		- placing
+% 	- Bibliography?
+% 		- Using a citation management tool?
+% 	- Outputs and accessbility
+
+% Participants get access to Rmarkdown template ISLS
+
+% Participants add paper components into RMarkdown with instructor help
+% 	- Add a paragraph from existing paper to the Template
+% 	- Add authors
+% 	- Add a table <- generated from code (we can provide basic data and code if needed)
+% 	- Add a figure <- generated from code (we can provide basic data and code if needed)
+% 	- Add a citation
+% 	- Whole or at least more of their paper?
+% 	- Export to multiple formats
+
+\subsection{Part 4: Feedback and Closure}
+After the demonstration and practice session for R Markdown, we will reconvene as a whole group to solicit feedback from the group on the two tools included in the Tutorial. As the tools are indended to be a useful resource to the ISLS community we hope to continually improve them over time, and will benefit from the perspective of new users. We will then take time to wrap up the session and give additional help or advice going forward. We will conclude by asking participants to sign up for reminder and update emails for either tool, and share out plan to reach out near the next ISLS deadline to support using the tools. The feedback and closure portion of the tutorial will take 20 minutes.
+
+
+
+\section{Additional Information}
+\subsection{materials needed to participate}
+Participants will need
+	- Existing ISLS paper (or similar substitute)
+	- Access to Rstudio (and dependant libraries)
+	- Overleaf account
+
+\section{Recruiting Participants}
+We will solicit participation by...
+\subsection{Draft of call for participation }
+
+
+
+%\renewcommand{\notesname}{Endnotes (use Heading 1)} %edit this line to change the text of endnotes heading.
+%theendnotes
+
+
+
+\end{document}
