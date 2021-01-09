@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.10)  9 JAN 2021 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.10)  9 JAN 2021 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,7 +130,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  43i,4n,49p,1063b,253s stack positions out of 5000i,500n,10000p,200000b,80000s
  <c:/tools/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tools/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on c:/dev/islsdown-tutorial/paper_contents.pdf (5 pages, 72254 bytes).
+Output written on c:/dev/islsdown-tutorial/paper_contents.pdf (5 pages, 72256 bytes).
 PDF statistics:
  45 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
